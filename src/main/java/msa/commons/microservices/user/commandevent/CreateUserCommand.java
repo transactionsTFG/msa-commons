@@ -1,4 +1,4 @@
-package msa.commons.microservicescommand.user;
+package msa.commons.microservices.user.commandevent;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
