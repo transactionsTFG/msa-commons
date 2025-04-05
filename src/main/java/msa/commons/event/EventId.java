@@ -3,6 +3,7 @@ package msa.commons.event;
 public enum EventId {
     /* MICROSERVICIO DE TIPO USUARIO */
     VALIDATE_TYPE_USER,
+    BEGIN_CREATE_USER,
     /* MICROSERVICIO DE USUARIO */
     CREATE_USER,
     FAILED_USER,
