@@ -7,21 +7,21 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 @Builder
-public class EventValue {
+public class EventResponse {
     private boolean success;
     private String message;
     private Object data;
 
-    public static EventValue success(Object data) {
-        return EventValue.builder()
+    public static EventResponse success(Object data) {
+        return EventResponse.builder()
                 .success(true)
                 .message("Success")
                 .data(data)
                 .build();
     }
 
-    public static EventValue error(String message) {
-        return EventValue.builder()
+    public static EventResponse error(String message) {
+        return EventResponse.builder()
                 .success(false)
                 .message(message)
                 .data(null)
