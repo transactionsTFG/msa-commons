@@ -7,5 +7,6 @@ public enum EventId {
     CREATE_USER,
     FAILED_USER,
     /* MICROSERVICIO DE COUNTRY */
-    GET_COUNTRY
+    GET_COUNTRY_BY_ID,
+    GET_COUNTRY_BY_NAME,
 }
