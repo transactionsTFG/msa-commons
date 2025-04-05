@@ -7,5 +7,5 @@ import lombok.Data;
 @AllArgsConstructor
 public class Event {
     private EventId eventId;
-    private Object data;
+    private EventValue eventValue;
 }
