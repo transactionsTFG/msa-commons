@@ -15,5 +15,6 @@ import msa.commons.microservices.reservationairline.commandevent.model.IdFlightI
 public class ValidateFlightCommand {
     private boolean previouslyCreated;
     private long idCustomner;
+    private long idReservation;
     private List<IdFlightInstanceInfo> flightInstanceInfo;
 }
