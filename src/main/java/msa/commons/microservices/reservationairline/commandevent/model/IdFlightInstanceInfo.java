@@ -8,4 +8,5 @@ public class IdFlightInstanceInfo {
     private int numberSeats;
     private double price;
     private long idAircraft;
+    private int totalOccupiedSeats;
 }
