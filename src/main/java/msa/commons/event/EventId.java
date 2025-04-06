@@ -17,4 +17,6 @@ public enum EventId {
     GET_ROOM,
     /* MICROSERVICIO DE Aeronave */
     GET_AIRCRAFT_BY_ID,
+    /* MICROSERVICIO DE Aeropuerto */
+    GET_AIRPORT_BY_ID,
 }
