@@ -19,4 +19,6 @@ public enum EventId {
     GET_AIRCRAFT_BY_ID,
     /* MICROSERVICIO DE Aeropuerto */
     GET_AIRPORT_BY_ID,
+    /* MICROSERVICIO DE Vuelo */
+    EXIST_FLIGHT_INSTANCE,
 }
