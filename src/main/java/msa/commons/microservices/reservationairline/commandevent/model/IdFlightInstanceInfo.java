@@ -6,4 +6,6 @@ import lombok.Data;
 public class IdFlightInstanceInfo {
     private long idFlightInstance;
     private int numberSeats;
+    private double price;
+    private long idAircraft;
 }
