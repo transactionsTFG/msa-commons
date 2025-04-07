@@ -1,4 +1,4 @@
-package msa.commons.microservices.customerairline.commandevent;
+package msa.commons.microservices.reservationairline.commandevent;
 
 import java.util.List;
 
@@ -6,15 +6,16 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import msa.commons.microservices.reservationairline.commandevent.model.CustomerInfo;
 import msa.commons.microservices.reservationairline.commandevent.model.IdFlightInstanceInfo;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class ValidateFlightCommand {
+public class CreateReservationCommand {
     private boolean previouslyCreated;
-    private String customerDni;
+    private CustomerInfo customerInfo;
     private long idReservation;
     private List<IdFlightInstanceInfo> flightInstanceInfo;
 }
