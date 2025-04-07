@@ -14,7 +14,6 @@ import msa.commons.microservices.reservationairline.commandevent.model.IdFlightI
 @NoArgsConstructor
 @Builder
 public class CreateReservationCommand {
-    private boolean previouslyCreated;
     private CustomerInfo customerInfo;
     private long idReservation;
     private List<IdFlightInstanceInfo> flightInstanceInfo;
