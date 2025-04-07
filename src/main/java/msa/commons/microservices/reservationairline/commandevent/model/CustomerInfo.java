@@ -8,4 +8,6 @@ public class CustomerInfo {
     private String email;
     private String phone;
     private String dni;
+    private boolean isPreviouslyCreated;
+    private long idCustomer;
 }
