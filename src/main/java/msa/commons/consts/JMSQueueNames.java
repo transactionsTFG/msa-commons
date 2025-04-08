@@ -9,4 +9,5 @@ public class JMSQueueNames {
     public static final String AGENCY_COUNTRY_SERVICE_QUEUE = "jms/countryQueue";
     public static final String AGENCY_HOTEL_BOOKING_SERVICE_QUEUE = "jms/hoteBookingServiceQueue";
     public static final String AGENCY_HOTEL_ROOM_SERVICE_QUEUE = "jms/hoteRoomServiceQueue";
+    public static final String HOTEL_ORCHESTRATOR_QUEUE = "jms/orchestatorQueue";
 }
