@@ -7,6 +7,7 @@ import com.google.gson.JsonParser;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import msa.commons.utils.GsonUtils;
 
 @Data
 @AllArgsConstructor
@@ -17,7 +18,7 @@ public class EventData {
     public static <T> EventData fromJson(String json, Class<T> cast) {
         JsonObject jsonObject = JsonParser.parseString(json).getAsJsonObject();
         String sagaId = jsonObject.get("sagaId").getAsString();
-        T data = new Gson().fromJson(jsonObject.get("data"), cast);   
+        T data = GsonUtils.getInstance().fromJson(jsonObject.get("data"), cast);   
         return new EventData(sagaId, data);
     }
 }
