@@ -1,4 +1,4 @@
-package msa.commons.microservices.hotelroom.qualifier;
+package msa.commons.microservices.hotelcustomer.qualifier;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -8,6 +8,7 @@ import java.lang.annotation.Target;
 import javax.inject.Qualifier;
 
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ElementType.METHOD, ElementType.TYPE,ElementType.FIELD,ElementType.PARAMETER})
+@Target({ ElementType.METHOD, ElementType.TYPE, ElementType.FIELD, ElementType.PARAMETER })
 @Qualifier
-public @interface RollbackRoomQualifier {}
+public @interface CreateCustomerByCreateBookingEventRollbackQualifier {
+}
