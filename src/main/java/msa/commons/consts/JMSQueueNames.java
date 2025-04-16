@@ -9,10 +9,12 @@ public class JMSQueueNames {
     public static final String AGENCY_TYPE_USER_SERVICE_QUEUE = "jms/typeUserServiceQueue";
     public static final String AGENCY_COUNTRY_SERVICE_QUEUE = "jms/countryQueue";
     /* JNDI HOTEL */
-    public static final String AGENCY_HOTEL_BOOKING_SERVICE_QUEUE = "jms/hoteBookingServiceQueue";
+    public static final String AGENCY_HOTEL_BOOKING_SERVICE_QUEUE = "jms/hotelBookingServiceQueue";
     public static final String AGENCY_HOTEL_ROOM_SERVICE_QUEUE = "jms/hotelRoomServiceQueue";
-    public static final String HOTEL_ORCHESTRATOR_QUEUE = "jms/orchestatorQueue";
+    public static final String HOTEL_ORCHESTRATOR_QUEUE = "jms/hotelOrchestatorQueue";
+    public static final String HOTEL_BOOKING_QUEUE = "jms/hotelBookingQueue";
     public static final String HOTEL_CUSTOMER_QUEUE = "jms/hotelCustomerQueue";
+    public static final String HOTEL_ROOM_QUEUE = "jms/hotelRoomQueue";
     /* JNDI AIRLINE */
     public static final String AIRLINE_MONITORING_ERROR_QUEUE = "jms/monitoringErrorQueue";
     public static final String AIRLINE_AIRCRAFT_QUEUE = "jms/aircraftQueue";
