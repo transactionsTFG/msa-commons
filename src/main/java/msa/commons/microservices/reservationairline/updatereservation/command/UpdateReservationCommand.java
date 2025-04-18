@@ -11,4 +11,5 @@ import msa.commons.microservices.reservationairline.updatereservation.model.IdUp
 public class UpdateReservationCommand {
     private long idReservation;
     private List<IdUpdateFlightInstanceInfo> flightInstanceInfo;
+    private boolean allFlightUpdate;
 }
