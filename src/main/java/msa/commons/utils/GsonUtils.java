@@ -10,7 +10,7 @@ import msa.commons.utils.gsonadapters.LocalDateTimeAdapter;
 public class GsonUtils {
     private static final Gson instance = new GsonBuilder()
                                             .registerTypeAdapter(LocalDateTime.class, new LocalDateTimeAdapter())
-                                            .create();
+                                             .create();
     private GsonUtils() {}
 
     public static Gson getInstance() {
