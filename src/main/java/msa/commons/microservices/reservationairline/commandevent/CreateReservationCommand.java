@@ -17,4 +17,5 @@ public class CreateReservationCommand {
     private CustomerInfo customerInfo;
     private long idReservation;
     private List<IdFlightInstanceInfo> flightInstanceInfo;
+    private boolean allFlightBuy;
 }
