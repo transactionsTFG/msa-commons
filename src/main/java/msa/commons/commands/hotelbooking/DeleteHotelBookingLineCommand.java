@@ -1,4 +1,4 @@
-package msa.commons.microservices.hotelbooking.commandevent;
+package msa.commons.commands.hotelbooking;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,4 +1,4 @@
-package msa.commons.microservices.hotelroom.commandevent;
+package msa.commons.commands.hotelroom;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

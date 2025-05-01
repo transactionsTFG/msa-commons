@@ -1,4 +1,4 @@
-package msa.commons.microservices.hotelbooking.commandevent;
+package msa.commons.commands.hotelbooking;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import msa.commons.commands.createreservation.model.CustomerInfo;
-import msa.commons.microservices.hotelroom.commandevent.model.RoomInfo;
+import msa.commons.commands.hotelroom.model.RoomInfo;
 
 @Data
 @Builder

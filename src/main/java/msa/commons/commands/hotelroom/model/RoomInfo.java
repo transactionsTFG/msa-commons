@@ -1,4 +1,4 @@
-package msa.commons.microservices.hotelroom.commandevent.model;
+package msa.commons.commands.hotelroom.model;
 
 import lombok.Data;
 
