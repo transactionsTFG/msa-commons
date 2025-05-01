@@ -1,4 +1,4 @@
-package msa.commons.microservices.reservationairline.commandevent;
+package msa.commons.commands.createreservation;
 
 import java.util.List;
 
@@ -6,8 +6,9 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import msa.commons.microservices.reservationairline.commandevent.model.CustomerInfo;
-import msa.commons.microservices.reservationairline.commandevent.model.IdFlightInstanceInfo;
+import msa.commons.commands.createreservation.model.CustomerInfo;
+import msa.commons.commands.createreservation.model.IdFlightInstanceInfo;
+
 
 @Data
 @AllArgsConstructor

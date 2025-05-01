@@ -1,4 +1,4 @@
-package msa.commons.microservices.reservationairline.removereservation.command;
+package msa.commons.commands.removereservation;
 
 import java.util.List;
 

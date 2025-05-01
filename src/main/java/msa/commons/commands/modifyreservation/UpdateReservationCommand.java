@@ -1,10 +1,10 @@
-package msa.commons.microservices.reservationairline.updatereservation.command;
+package msa.commons.commands.modifyreservation;
 
 import java.util.List;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import msa.commons.microservices.reservationairline.updatereservation.model.IdUpdateFlightInstanceInfo;
+import msa.commons.commands.modifyreservation.model.IdUpdateFlightInstanceInfo;
 
 @Data
 @NoArgsConstructor

@@ -1,4 +1,4 @@
-package msa.commons.microservices.reservationairline.commandevent.model;
+package msa.commons.commands.createreservation.model;
 
 import lombok.Data;
 

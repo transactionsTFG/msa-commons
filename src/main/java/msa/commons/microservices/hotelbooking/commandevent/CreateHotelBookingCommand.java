@@ -5,8 +5,8 @@ import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import msa.commons.commands.createreservation.model.CustomerInfo;
 import msa.commons.microservices.hotelroom.commandevent.model.RoomInfo;
-import msa.commons.microservices.reservationairline.commandevent.model.CustomerInfo;
 
 @Data
 @Builder
