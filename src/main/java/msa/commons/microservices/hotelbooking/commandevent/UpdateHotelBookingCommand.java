@@ -11,7 +11,7 @@ import msa.commons.microservices.reservationairline.commandevent.model.CustomerI
 @Data
 @Builder
 @AllArgsConstructor
-public class CreateHotelBookingCommand {
+public class UpdateHotelBookingCommand {
     private String sagaId;
     private long bookingId;
     private long userId;

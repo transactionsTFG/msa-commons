@@ -1,4 +1,4 @@
-package msa.commons.microservices.hotelroom.qualifier;
+package msa.commons.microservices.hotelbooking.qualifier;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -10,5 +10,6 @@ import javax.inject.Qualifier;
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.METHOD, ElementType.TYPE, ElementType.FIELD, ElementType.PARAMETER })
 @Qualifier
-public @interface ValidateRoomsQualifier {
+public @interface ConfirmGetHotelBookingEventQualifier {
+
 }
