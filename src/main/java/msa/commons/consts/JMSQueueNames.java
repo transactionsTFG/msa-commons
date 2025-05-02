@@ -3,7 +3,7 @@ package msa.commons.consts;
 public class JMSQueueNames {
     private JMSQueueNames() {}   
     /* JNDI AGENCY */
-    public static final String AGENCY_MONITORING_ERROR_QUEUE = "jms/monitoringErrorQueue";
+    public static final String AGENCY_MONITORING_ERROR_QUEUE = "jms/agencyMonitoringErrorQueue";
     public static final String AGENCY_USER_SERVICE_QUEUE = "jms/userServiceQueue";
     public static final String AGENCY_ORCHESTATOR_QUEUE = "jms/agencyOrchestatorQueue";
     public static final String AGENCY_TYPE_USER_SERVICE_QUEUE = "jms/typeUserServiceQueue";
@@ -16,7 +16,7 @@ public class JMSQueueNames {
     public static final String HOTEL_CUSTOMER_QUEUE = "jms/hotelCustomerQueue";
     public static final String HOTEL_ROOM_QUEUE = "jms/hotelRoomQueue";
     /* JNDI AIRLINE */
-    public static final String AIRLINE_MONITORING_ERROR_QUEUE = "jms/monitoringErrorQueue";
+    public static final String AIRLINE_MONITORING_ERROR_QUEUE = "jms/airlineMonitoringErrorQueue";
     public static final String AIRLINE_AIRCRAFT_QUEUE = "jms/aircraftQueue";
     public static final String AIRLINE_FLIGHT_QUEUE = "jms/flightQueue";
     public static final String AIRLINE_AIRPORT = "jms/airportQueue";
