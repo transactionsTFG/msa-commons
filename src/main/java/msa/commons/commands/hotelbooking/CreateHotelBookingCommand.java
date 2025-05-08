@@ -5,12 +5,14 @@ import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import msa.commons.commands.createreservation.model.CustomerInfo;
 import msa.commons.commands.hotelroom.model.RoomInfo;
 
 @Data
 @Builder
 @AllArgsConstructor
+@NoArgsConstructor
 public class CreateHotelBookingCommand {
     private String sagaId;
     private long bookingId;
