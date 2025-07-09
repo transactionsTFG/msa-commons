@@ -1,7 +1,22 @@
 package msa.commons.parser;
 
-public class ObjectUtils {
+import java.util.Optional;
+
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+
+import msa.commons.event.eventoperation.EventOperation;
+import msa.commons.utils.GsonUtils;
+
+public final class ObjectUtils {
     private ObjectUtils() {}
+
+    public static Optional<String> getNameOperation(Object obj) {
+        JsonObject jsonObject = JsonParser.parseString(GsonUtils.getInstance().toJson(obj)).getAsJsonObject();
+        return jsonObject.has("operation") 
+            ? Optional.of(GsonUtils.getInstance().fromJson(jsonObject.get("operation"), EventOperation.class).getOperation()) 
+            : Optional.empty();
+    }
 
     public static String getString(Object obj){
         if (obj == null) 

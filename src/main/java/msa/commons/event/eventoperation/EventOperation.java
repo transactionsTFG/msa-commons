@@ -1,3 +1,5 @@
 package msa.commons.event.eventoperation;
 
-public interface EventOperation {}
+public interface EventOperation {
+    String getOperation();
+}
