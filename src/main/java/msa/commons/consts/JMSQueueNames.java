@@ -14,6 +14,7 @@ public class JMSQueueNames {
     public static final String AGENCY_COUNTRY_SERVICE_QUEUE = "jms/countryQueue";
     public static final String AGENCY_TRAVEL_SERVICE_QUEUE = "jms/travelQueue";
     public static final String ORCHESTRATOR_AIRLINE_QUEUE = "jmsremote/orchestratorAirline";
+    
     /* JNDI HOTEL */
     public static final String AGENCY_HOTEL_BOOKING_SERVICE_QUEUE = "jms/hotelBookingServiceQueue";
     public static final String AGENCY_HOTEL_ROOM_SERVICE_QUEUE = "jms/hotelRoomServiceQueue";
@@ -29,4 +30,5 @@ public class JMSQueueNames {
     public static final String AIRLINE_CUSTOMER = "jms/customerQueue";
     public static final String AIRLINE_ORCHESTATOR_QUEUE = "jms/airlineOrchestatorQueue";
     public static final String AIRLINE_RESERVATION_QUEUE = "jms/reservationQueue";
+    public static final String REMOTE_ORCHESTRATOR_AGENCY_QUEUE = "jmsremote/orchestratorAgency";
 }
