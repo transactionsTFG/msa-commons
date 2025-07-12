@@ -8,6 +8,6 @@ import msa.commons.controller.airline.reservation.create.FlightInstanceSeatsDTO;
 @Data
 public class ReservationAirlineRequestDTO {
     private String dni;
-    private long idCustomer;
+    private long idUser;
     private List<FlightInstanceSeatsDTO> listIdFlightInstanceSeats;
 }
