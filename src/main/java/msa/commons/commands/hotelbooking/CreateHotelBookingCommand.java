@@ -25,4 +25,5 @@ public class CreateHotelBookingCommand {
     private String customerDNI;
     private List<RoomInfo> roomsInfo;
     private CustomerInfo customerInfo;
+    private long travelUserId;
 }
