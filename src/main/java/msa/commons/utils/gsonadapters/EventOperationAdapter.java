@@ -13,7 +13,7 @@ import com.google.gson.JsonSerializationContext;
 import com.google.gson.JsonSerializer;
 
 import msa.commons.event.eventoperation.EventOperation;
-import msa.commons.event.eventoperation.reservation.ReservationAirline;
+import msa.commons.event.eventoperation.reservation.CreateReservation;
 import msa.commons.event.eventoperation.user.UserValidate;
 
 public class EventOperationAdapter implements JsonSerializer<EventOperation>, JsonDeserializer<EventOperation>{
@@ -21,7 +21,7 @@ public class EventOperationAdapter implements JsonSerializer<EventOperation>, Js
     private static final Map<String, Class<? extends EventOperation>> ENUMS = new HashMap<>();
     static {
         ENUMS.put(UserValidate.class.getSimpleName(),    UserValidate.class);
-        ENUMS.put(ReservationAirline.class.getSimpleName(), ReservationAirline.class);
+        ENUMS.put(CreateReservation.class.getSimpleName(), CreateReservation.class);
     }
 
 

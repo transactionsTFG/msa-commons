@@ -26,4 +26,5 @@ public class CreateHotelBookingCommand {
     private List<RoomInfo> roomsInfo;
     private CustomerInfo customerInfo;
     private long travelUserId;
+    private long idTravelAgency;
 }

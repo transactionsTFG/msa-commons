@@ -9,5 +9,4 @@ public class IdFlightInstanceInfo {
     private double price;
     private long idAircraft;
     private int totalOccupiedSeats;
-    private long idReservationTravel;
 }
