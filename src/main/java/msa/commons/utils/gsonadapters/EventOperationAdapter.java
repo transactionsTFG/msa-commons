@@ -14,6 +14,8 @@ import com.google.gson.JsonSerializer;
 
 import msa.commons.event.eventoperation.EventOperation;
 import msa.commons.event.eventoperation.reservation.CreateReservation;
+import msa.commons.event.eventoperation.reservation.DeleteReservation;
+import msa.commons.event.eventoperation.reservation.UpdateReservation;
 import msa.commons.event.eventoperation.user.UserValidate;
 
 public class EventOperationAdapter implements JsonSerializer<EventOperation>, JsonDeserializer<EventOperation>{
@@ -22,6 +24,8 @@ public class EventOperationAdapter implements JsonSerializer<EventOperation>, Js
     static {
         ENUMS.put(UserValidate.class.getSimpleName(),    UserValidate.class);
         ENUMS.put(CreateReservation.class.getSimpleName(), CreateReservation.class);
+        ENUMS.put(UpdateReservation.class.getSimpleName(), UpdateReservation.class);
+        ENUMS.put(DeleteReservation.class.getSimpleName(), DeleteReservation.class);
     }
 
 
