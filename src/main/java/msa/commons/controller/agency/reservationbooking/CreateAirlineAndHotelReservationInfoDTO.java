@@ -18,7 +18,6 @@ public class CreateAirlineAndHotelReservationInfoDTO {
     private String endDate;
     private int numberOfNights;
     private int peopleNumber;
-    private long bookingId;
     private Boolean withBreakfast;
     private List<FlightInstanceSeatsDTO> flightInstances;
     private List<Long> roomIds;
