@@ -7,6 +7,7 @@ import lombok.Data;
 @Data
 public class RemoveReservationCommand {
     private Long idReservation;
+    private Long idTravel;
     private boolean isAllRemove;
     private List<IdWithSeats> listIdFlightInstance;
 }
