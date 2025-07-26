@@ -34,10 +34,7 @@ public class EventData {
         int transactionActive = jsonObject.has("transactionActive") ? jsonObject.get("transactionActive").getAsInt() : 1;
         List<EventId> rollbackEventTo = gsonUtil.fromJson(jsonObject.get("rollbackEventTo"), new TypeToken<List<EventId>>() {}.getType());
         T data = gsonUtil.fromJson(jsonObject.get("data"), cast);  
-        if(jsonObject.get("operation") != null) {
-            EventOperation operation = gsonUtil.fromJson(jsonObject.get("operation"), EventOperation.class);
-            return new EventData(sagaId, operation, rollbackEventTo, data, transactionActive);
-        }
-        return new EventData(sagaId, rollbackEventTo, data);
+        EventOperation op = jsonObject.has("operation") ? gsonUtil.fromJson(jsonObject.get("operation"), EventOperation.class) : null;
+        return new EventData(sagaId, op, rollbackEventTo, data, transactionActive);
     }
 }
