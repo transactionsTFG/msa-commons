@@ -14,15 +14,12 @@ import msa.commons.commands.hotelroom.model.RoomInfo;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CreateHotelBookingCommand {
-    private String sagaId;
     private long bookingId;
-    private long userId;
     private String startDate;
     private String endDate;
     private int numberOfNights;
     private boolean withBreakfast;
     private int peopleNumber;
-    private String customerDNI;
     private List<RoomInfo> roomsInfo;
     private CustomerInfo customerInfo;
     private long travelUserId;
