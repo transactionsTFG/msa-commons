@@ -13,16 +13,12 @@ import msa.commons.controller.airline.reservation.create.CustomerDTO;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CreateHotelBookingDTO {
-    private long bookingId;
-    private String sagaId;
     private CustomerDTO customer;
     private String startDate;
     private String endDate;
     private int numberOfNights;
     private Boolean withBreakfast;
     private int peopleNumber;
-    private double totalPrice;
-    private String customerDNI;
     private String userId;
-    private List<msa.commons.commands.hotelroom.model.RoomInfo> roomsInfo;
+    private List<Long> roomsIds;
 }
