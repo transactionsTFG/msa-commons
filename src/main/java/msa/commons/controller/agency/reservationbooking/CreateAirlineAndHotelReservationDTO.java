@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import msa.commons.commands.createreservation.model.CustomerInfo;
+import msa.commons.controller.airline.reservation.create.CustomerDTO;
 
 @Data
 @Builder
@@ -13,6 +15,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class CreateAirlineAndHotelReservationDTO {
     private long idUser; 
-    private String dni;
+    private CustomerDTO customer;
     private CreateAirlineAndHotelReservationInfoDTO infoReservation;
 }
