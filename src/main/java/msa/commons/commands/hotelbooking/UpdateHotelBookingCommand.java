@@ -24,4 +24,5 @@ public class UpdateHotelBookingCommand {
     private List<RoomInfo> roomsInfo;
     private CustomerInfo customerInfo;
     private long idTravel;
+    private double totalPrice;
 }
