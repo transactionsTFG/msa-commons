@@ -1,5 +1,6 @@
 package msa.commons.commands.createreservation;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 import lombok.AllArgsConstructor;
@@ -21,4 +22,6 @@ public class CreateReservationCommand {
     private boolean allFlightBuy;
     private long idUser;
     private long idTravelAgency;
+    private LocalDateTime minDateTime;
+    private LocalDateTime maxDateTime;
 }
