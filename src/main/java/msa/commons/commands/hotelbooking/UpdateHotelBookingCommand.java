@@ -20,7 +20,6 @@ public class UpdateHotelBookingCommand {
     private int peopleNumber;
     private String customerDNI;
     private List<RoomInfo> roomsInfo;
-    private CustomerInfo customerInfo;
     private long idTravel;
     private double totalPrice;
 }
