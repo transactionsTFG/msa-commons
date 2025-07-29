@@ -12,9 +12,7 @@ import msa.commons.commands.hotelroom.model.RoomInfo;
 @Builder
 @AllArgsConstructor
 public class UpdateHotelBookingCommand {
-    private String sagaId;
     private long bookingId;
-    private long userId;
     private String startDate;
     private String endDate;
     private int numberOfNights;
