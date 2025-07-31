@@ -7,5 +7,5 @@ import lombok.Data;
 @AllArgsConstructor
 public class CreateUserCommand {
     private long idUser;
-    private String typeUser;
+    private long typeUser;
 }
